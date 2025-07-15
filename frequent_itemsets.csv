@@ -1,0 +1,11 @@
+support,itemsets
+0.17,frozenset({'sugar'})
+0.16233333333333333,frozenset({'Cheese'})
+0.161,frozenset({'avocadoes'})
+0.15933333333333333,frozenset({'rice'})
+0.159,frozenset({'Bananas'})
+0.15666666666666668,frozenset({'salt'})
+0.15433333333333332,frozenset({'lemon'})
+0.154,frozenset({'noodles'})
+0.154,frozenset({'melon'})
+0.15266666666666667,frozenset({'watermelon'})
