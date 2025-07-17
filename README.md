@@ -16,33 +16,33 @@ This project simulates supermarket transaction data, preprocesses it, and analyz
     - Generates 3000 transactions, each with 2–7 random items from a predefined pool.
     - Saves transactions to `supermarket_transactions.csv`.
 
-<img src="images/image_1.png" width="500">
+ <img src="images/image_1.png" width="500">
 
 2. **Preprocessing: One-Hot Encoding**
     - Extracts all unique items.
     - Converts transactions to a one-hot encoded DataFrame (each column is an item, each row a transaction).
 
-<img src="images/image_2.png" width="500">    
+ <img src="images/image_2.png" width="500">    
 
 3. **Generate Frequent Itemsets**
     - Uses `mlxtend.frequent_patterns.apriori()` with `min_support=0.05`.
     - Sorts and exports the top 10 itemsets to `frequent_itemsets.csv`.
 
-<img src="images/image_3.png" width="500">
+ <img src="images/image_3.png" width="500">
 
 4. **Identify Closed Frequent Itemsets**
     - Loads frequent itemsets from CSV.
     - Finds itemsets where no proper superset has the same support.
     - Saves closed itemsets to `closed_itemsets.csv`.
 
-<img src="images/image_4.png" width="500">
+ <img src="images/image_4.png" width="500">
 
 5. **Identify Maximal Frequent Itemsets**
     - Loads frequent itemsets from CSV.
     - Finds itemsets where no frequent superset exists.
     - Saves maximal itemsets to `maximal_itemsets.csv`.
 
-<img src="images/image_5.png" width="500">    
+ <img src="images/image_5.png" width="500">    
 
 ## How to Run
 
